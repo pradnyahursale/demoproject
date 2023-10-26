@@ -34,7 +34,7 @@ public class SearchBarWindow extends Baseclass {
 		
 		Thread.sleep(1000);
 		
-		sbo.clickonbuynow().click();
+		sbo.clickonAddtocart().click();
 			
 		
 	}

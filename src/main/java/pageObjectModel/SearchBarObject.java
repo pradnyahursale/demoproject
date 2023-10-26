@@ -1,3 +1,4 @@
+
 package pageObjectModel;
 
 import org.openqa.selenium.By;
@@ -12,11 +13,9 @@ public class SearchBarObject {
 	
 	private By SBT=By.xpath("//input[@id='nav-search-submit-button']");
 	
-	private By IphoneG=By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[1]");
+	private By Iphone14=By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[1]");
 	
-	//private By ADC=By.xpath("//input[@name='submit.add-to-cart']");
-	
-	private By BYN=By.xpath("/html/body/div[4]/div[2]/div[3]/div[8]/div[8]/div/div[1]/div/div[1]/div/div/div[2]/div/div[2]/div/form/div/div/div[36]/div/div/span/span/input");
+	private By ADC=By.xpath("//input[@title='Add to Shopping Cart']");
 	
 	public SearchBarObject(WebDriver driver2) {
 		this.driver=driver2;
@@ -35,13 +34,13 @@ public class SearchBarObject {
 	
 	public WebElement selectmodel()
 	{
-		return driver.findElement(IphoneG);
+		return driver.findElement(Iphone14);
 		
 	}
 	
-	public WebElement clickonbuynow()
+	public WebElement clickonAddtocart()
 	{
-		return driver.findElement(BYN);
+		return driver.findElement(ADC);
 		
 		
 	}
