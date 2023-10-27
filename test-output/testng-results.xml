@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T20:20:20 IST" name="Default suite" finished-at="2023-10-27T20:21:25 IST" duration-ms="65694">
+  <suite started-at="2023-10-27T20:47:51 IST" name="Default suite" finished-at="2023-10-27T20:48:19 IST" duration-ms="28327">
     <groups>
     </groups>
-    <test started-at="2023-10-27T20:20:20 IST" name="Default test" finished-at="2023-10-27T20:21:25 IST" duration-ms="65694">
-      <class name="testCases.AddToCart">
-        <test-method signature="verifyADC()[pri:0, instance:testCases.AddToCart@689604d9]" started-at="2023-10-27T20:20:20 IST" name="verifyADC" finished-at="2023-10-27T20:21:25 IST" duration-ms="65564" status="PASS">
+    <test started-at="2023-10-27T20:47:51 IST" name="Default test" finished-at="2023-10-27T20:48:19 IST" duration-ms="28327">
+      <class name="testCases.HamburgerMenu">
+        <test-method signature="hambmenu()[pri:0, instance:testCases.HamburgerMenu@689604d9]" started-at="2023-10-27T20:47:51 IST" name="hambmenu" finished-at="2023-10-27T20:48:19 IST" duration-ms="28208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyADC -->
-      </class> <!-- testCases.AddToCart -->
+        </test-method> <!-- hambmenu -->
+      </class> <!-- testCases.HamburgerMenu -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
